@@ -1,0 +1,14 @@
+{
+  "name": "mirroself-m4",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "MirroSelf 匹配池服务端（M4）：只做候选召回与同意信箱，不保存任何行为明细",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\"",
+    "dev": "node dev-server.mjs"
+  }
+}
